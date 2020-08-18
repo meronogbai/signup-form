@@ -52,6 +52,7 @@ body {
 	background-color: #eee;
 	margin: 10px;
 	font-family: 'Roboto', 'sans-serif';
+	font-weight: 400;
 }
 
 a {
@@ -73,6 +74,10 @@ button {
   	========================================
 */
 
+header {
+	font-weight: 100;
+}
+
 .signin-button {
 	float: right;
 	margin: 10px 25px 0 0;
@@ -92,16 +97,51 @@ button {
 	========================================
 */
 
-img {
-	width: 100%;
-}
-
 main {
 	clear: both;
-	width: 300px;;
+	width: 370px;;
 	margin: 10px auto;
 }
 
+img {
+	width: 80%;
+}
+
+figure {
+	text-align: center;
+	margin: 30px auto;
+	position: relative;
+	top: 20px;
+}
 main > div {
+	margin: 10px auto;
+}
+
+form {
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	padding: 15px 35px;
+	line-height: 180%;
+}
+
+label {
+	display: block;
+	text-align: left;
+	margin: 0 auto 27px auto;
+}
+
+input {
+	width: 100%;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 23px;
+}
+
+.create-text {
+	font-size: 12px;
+	line-height: 1.6;
 	margin: 10px auto;
 }
