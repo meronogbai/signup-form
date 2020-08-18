@@ -56,3 +56,16 @@ body {
     margin: 10px;
     font-family: 'Roboto', 'sans-serif';
 }
+
+a {
+    text-decoration: none;
+    color: #0093DD;
+}
+
+button {
+    background-color: #0077C5;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 7px 13px;
+}
