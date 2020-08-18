@@ -34,7 +34,7 @@
             <p>One account for everything Intuit, including Mint. <a href="#">Learn more</a></p>
             <label>
                 Email address
-                <input type="email" name="email">
+                <input type="email" name="email" required>
             </label>
             <label>
                 Phone (recommended)
@@ -42,15 +42,33 @@
             </label>
             <label>
                 Password
-                <input type="password" name="password">
+                <input type="password" name="password" required>
             </label>
             <button type="submit" name="submit">
                 <i class="fas fa-lock"></i>
                 Create Account
             </button>
+
+            <p>By clicking Create account, you agree to our
+                <a href="#">Terms</a>
+                and have read and acknowledge our
+                <a href="#">Privacy Statement.</a>
+            </p>
         </form>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer-links">
+            <a href="#">Legal</a>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+        </div>
+        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
+            trademarks of Intuit Inc.
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        <button type="submit">
+            Privacy Settings
+        </button>
+    </footer>
 </body>
 
 </html>
