@@ -147,3 +147,29 @@ h3 {
 	line-height: 1.6;
 	margin: 10px auto;
 }
+
+/* 
+	========================================
+	Footer
+	========================================
+*/
+
+.footer-links {
+	text-align: center;
+	margin: 20px 0 5px 0;
+	font-size: 15px;
+}
+
+.footer-text {
+	text-align: center;
+	color: #aaa;
+	font-size: 15px;
+	width: 50%;
+	margin: auto;
+	line-height: 17px;
+}
+
+footer>div>a {
+	margin-left: 5px;
+	color: #aaa
+}
