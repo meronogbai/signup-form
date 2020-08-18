@@ -90,7 +90,6 @@ header {
 	font-size: 12px;
 }
 
-
 /* 
 	========================================
 	Form
@@ -99,7 +98,8 @@ header {
 
 main {
 	clear: both;
-	width: 370px;;
+	width: 370px;
+	;
 	margin: 10px auto;
 }
 
@@ -113,7 +113,8 @@ figure {
 	position: relative;
 	top: 20px;
 }
-main > div {
+
+main>div {
 	margin: 10px auto;
 }
 
@@ -123,6 +124,7 @@ form {
 	border: 1px solid #aaa;
 	padding: 15px 35px;
 	line-height: 180%;
+	border-radius: 5px;
 }
 
 label {
