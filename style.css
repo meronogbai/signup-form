@@ -48,6 +48,10 @@ table {
 	========================================
 */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #eee;
 	margin: 10px;
@@ -122,9 +126,10 @@ form {
 	text-align: center;
 	background-color: #fff;
 	border: 1px solid #aaa;
+	border-bottom-style: none;
 	padding: 15px 35px;
 	line-height: 180%;
-	border-radius: 5px;
+	border-radius: 5px 5px 0 0;
 }
 
 label {
@@ -148,12 +153,24 @@ h3 {
 	margin: 10px auto;
 }
 
-form>p {
+.submit-text {
 	font-style: italic;
 	line-height: 160%;
 	font-size: 12px;
 	margin-top: 7px;
 	font-weight: 600;
+}
+
+.captcha {
+	width: 100%;
+	border: 1px solid #aaa;
+	border-radius: 0 0 5px 5px;
+	border-top-style: none;
+	font-size: 10px;
+	text-align: center;
+	padding: 20px 10px 20px 10px;
+	line-height: 15px;
+	;
 }
 
 /* 
