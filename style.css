@@ -1,45 +1,136 @@
 /* CSS RESET */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
-body {
-	line-height: 1;
+ol,
+ul {
+  list-style: none;
 }
 
-ol, ul {
-	list-style: none;
+blockquote,
+q {
+  quotes: none;
 }
 
-blockquote, q {
-	quotes: none;
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-	content: '';
-	content: none;
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /*
@@ -49,28 +140,29 @@ table {
 */
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	background-color: #eee;
-	margin: 10px;
-	font-family: 'Roboto', 'sans-serif';
-	font-weight: 400;
-	color: #6b6c72;
+  background-color: #eee;
+  margin: 10px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: #6b6c72;
+  line-height: 1;
 }
 
 a {
-	text-decoration: none;
-	color: #0093DD;
+  text-decoration: none;
+  color: #0093dd;
 }
 
 button {
-	background-color: #0077C5;
-	color: #fff;
-	border: 1px solid #000;
-	border-radius: 3px;
-	padding: 7px 13px;
+  background-color: #0077c5;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 7px 13px;
 }
 
 /*
@@ -80,133 +172,131 @@ button {
 */
 
 header {
-	font-weight: 100;
+  font-weight: 100;
 }
 
 .signin-button {
-	float: right;
-	margin: 10px 25px 0 0;
+  float: right;
+  margin: 10px 25px 0 0;
 }
 
 .signin-text {
-	float: right;
-	margin: 10px 20px 0 10px;
-	line-height: 18px;
-	font-size: 12px;
+  float: right;
+  margin: 10px 20px 0 10px;
+  line-height: 18px;
+  font-size: 12px;
 }
 
-/* 
+/*
 	========================================
 	Form
 	========================================
 */
 
 main {
-	clear: both;
-	width: 370px;
-	;
-	margin: 10px auto;
+  clear: both;
+  width: 370px;
+  margin: 10px auto;
 }
 
 img {
-	width: 80%;
+  width: 80%;
 }
 
 figure {
-	text-align: center;
-	margin: 30px auto;
-	position: relative;
-	top: 20px;
+  text-align: center;
+  margin: 30px auto;
+  position: relative;
+  top: 20px;
 }
 
-main>div {
-	margin: 10px auto;
+main > div {
+  margin: 10px auto;
 }
 
 form {
-	text-align: center;
-	background-color: #fff;
-	border: 1px solid #aaa;
-	border-bottom-style: none;
-	padding: 15px 35px;
-	line-height: 180%;
-	border-radius: 5px 5px 0 0;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-bottom-style: none;
+  padding: 15px 35px;
+  line-height: 180%;
+  border-radius: 5px 5px 0 0;
 }
 
 label {
-	display: block;
-	text-align: left;
-	margin: 0 auto 27px auto;
+  display: block;
+  text-align: left;
+  margin: 0 auto 27px auto;
 }
 
 input {
-	width: 100%;
-	height: 30px;
-	margin-top: 8px;
+  width: 100%;
+  height: 30px;
+  margin-top: 8px;
 }
 
 h3 {
-	font-weight: 500;
-	font-size: 23px;
+  font-weight: 500;
+  font-size: 23px;
 }
 
 .create-text {
-	font-size: 12px;
-	line-height: 1.6;
-	margin: 10px auto;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 10px auto;
 }
 
 .submit-text {
-	font-style: italic;
-	line-height: 160%;
-	font-size: 12px;
-	margin-top: 7px;
-	font-weight: 600;
+  font-style: italic;
+  line-height: 160%;
+  font-size: 12px;
+  margin-top: 7px;
+  font-weight: 600;
 }
 
 .captcha {
-	width: 100%;
-	border: 1px solid #aaa;
-	border-radius: 0 0 5px 5px;
-	border-top-style: none;
-	font-size: 10px;
-	text-align: center;
-	padding: 20px 10px 20px 10px;
-	line-height: 15px;
-	;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 0 0 5px 5px;
+  border-top-style: none;
+  font-size: 10px;
+  text-align: center;
+  padding: 20px 10px 20px 10px;
+  line-height: 15px;
 }
 
-/* 
+/*
 	========================================
 	Footer
 	========================================
 */
 
 .footer-links {
-	text-align: center;
-	margin: 20px 0 5px 0;
-	font-size: 15px;
+  text-align: center;
+  margin: 20px 0 5px 0;
+  font-size: 15px;
 }
 
 .footer-text {
-	text-align: center;
-	color: #aaa;
-	font-size: 15px;
-	width: 50%;
-	margin: auto;
-	line-height: 17px;
+  text-align: center;
+  color: #aaa;
+  font-size: 15px;
+  width: 50%;
+  margin: auto;
+  line-height: 17px;
 }
 
-footer>div>a {
-	margin-left: 5px;
-	color: #aaa
+footer > div > a {
+  margin-left: 5px;
+  color: #aaa;
 }
 
 /* Privacy button */
 
 .privacy {
-	position: fixed;
-	bottom: 0;
-	right: 39px;
-	background-color: #6b6c72;
+  position: fixed;
+  bottom: 0;
+  right: 39px;
+  background-color: #6b6c72;
 }
