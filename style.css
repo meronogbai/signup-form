@@ -198,3 +198,12 @@ footer>div>a {
 	margin-left: 5px;
 	color: #aaa
 }
+
+/* Privacy button */
+
+.privacy {
+	position: fixed;
+	bottom: 0;
+	right: 39px;
+	background-color: #6b6c72;
+}
