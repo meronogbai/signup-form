@@ -148,6 +148,14 @@ h3 {
 	margin: 10px auto;
 }
 
+form>p {
+	font-style: italic;
+	line-height: 160%;
+	font-size: 12px;
+	margin-top: 7px;
+	font-weight: 600;
+}
+
 /* 
 	========================================
 	Footer
