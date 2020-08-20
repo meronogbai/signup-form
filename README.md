@@ -28,7 +28,7 @@ https://meronokbay.github.io/signup-form/
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [https://github.com/ahmetbozaci/youtube_clone/issues](issues/).
+Feel free to check the [https://github.com/meronokbay/signup-form/issues](issues/).
 
 ## Show your support
 
