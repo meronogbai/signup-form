@@ -28,7 +28,7 @@ https://meronokbay.github.io/signup-form/
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [https://github.com/meronokbay/signup-form/issues](issues/).
+Feel free to check the [https://github.com/meronokbay/signup-form/issues]
 
 ## Show your support
 
